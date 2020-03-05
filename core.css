@@ -137,6 +137,13 @@ html, body {
   align-content: flex-end;
 }
 
+.sidebar-menu-arrow {
+  width: 209.4px;
+  height: 20.8px;
+  display: flex;
+  float: right;
+}
+
 .page-right-side {
   width: calc(100vw - 255px);
   height: 100vh;
