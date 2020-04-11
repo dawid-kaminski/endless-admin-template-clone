@@ -190,9 +190,11 @@ html, body {
   height: 39.6px;
   width: 25px;
   padding: 0;
-  margin: 10px 0px 0px 0px;
+  /* margin: 10px 0px 0px 0px; */
+  margin: 0;
   font-size: 24px;
   color: #4466f2;
+  display: flex;
   align-items: center;
 }
 

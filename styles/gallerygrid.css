@@ -5,7 +5,6 @@
   padding: 0px 15px 0px 15px;
   display: flex;
   flex-direction: column;
-  background-color:
 }
 
 .page-header {
@@ -63,14 +62,13 @@
   align-items: center;
   font-size: 14px;
   color: #6c757d;
-  /* word-spacing: 4px; */
 }
 
 .page-header-right-side-icons {
   width: calc(100vw - 520.2px);
   height: 100%;
   margin: 0;
-  padding-right: 40px;
+  padding-right: 15px;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -110,10 +108,9 @@
 }
 
 .card-body {
-  height: calc(100vw - 26.4px);
-  max-width: 100%;
-  /* width: calc(100vw - 285px); */
-
+  height: calc(100vh - 166.4px);
+  height: 100%;
+  width: 100%;
   margin: 0;
   padding: 0px 15px 0px 15px;
   border-bottom: 1px solid #f6f7fb;
@@ -121,8 +118,8 @@
 }
 
 .card {
-  height: 100vh;
-  width: 100wv;
+  height: 100%;
+  width: 100%;
   margin: 0px;
   padding: 0px 15px;
   border-top-left-radius: 8px;
@@ -132,9 +129,9 @@
 
 .card-header {
   height: auto;
-  width: 100wv;
+  width: 100%;
   margin: 0;
-  padding: 30px 15px;
+  padding: 30px 0px 30px 15px;
   font-size: 18px;
   font-weight: 600;
   letter-spacing: .5px;
@@ -144,5 +141,57 @@
 .card-my-gallery {
   height: auto;
   width: 100%;
+  margin: 0;
+  padding: 25px 0px;
   border: 0;
+  display: flex;
+  flex-wrap: wrap;
 }
+
+.card-my-gallery-photo {
+  padding: 0px 15px;
+  margin-bottom: 16px;
+}
+
+.card-my-gallery-photo-frame {
+  padding: .25rem;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: .25rem;
+  max-width: 100%;
+  height: auto;
+}
+
+.card-my-gallery-photo-frame img {
+  height: 158.21px;
+  width: 254.95px;
+}
+
+
+/* .card-body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.card {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.card-header {
+  height: 100%;
+  width: 100%;
+  margin: 30px;
+  padding: 0;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: .5px;
+  border-bottom: 1px solid #f6f7fb;
+} */
