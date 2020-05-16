@@ -128,7 +128,7 @@
   margin-left: auto;
 }
 
-.maledives-photo{
+.user-profile-header {
   margin: 0;
   padding-right: 15px;
   width: 100%;
@@ -136,13 +136,24 @@
   display: flex;
 }
 
-.maledives-photo img {
+.user-profile-header-background-photo {
   margin: 0;
   padding-right: 15px;
   width: 100%;
   height: 470px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
+  position: relative;
+}
+
+.user-profile-header-photo {
+  height: 125px;
+  width: 125px;
+  position: absolute;
+  border-radius: 100%;
+  border: 7px solid white;
+  top: 470px;
+  left: 300px;
 }
 
 .info {
