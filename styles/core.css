@@ -199,7 +199,7 @@ html, body {
 }
 
 .right-side-header-search-form {
-  width: 70%;
+  width: 68%;
   height: 50px;
   margin: 0;
   border-left: none;
@@ -216,16 +216,16 @@ html, body {
   display: flex;
   align-items: flex-start;
   height: 42px;
-  width: 90%;
+  width: 86%;
   align-items: center;
   position: relative;
-  right: 3px;
+  right: 27px;
 }
 
 .right-side-header-search-form-group-search-icon {
   position: relative;
   display: flex;
-  padding: 0px 10px 0px 30px;
+  padding: 0px 6.5px 0px 30px;
   right: 9px;
 }
 
@@ -250,6 +250,7 @@ input {
   color: #4466f2;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .right-side-header-icon-language {
@@ -261,38 +262,46 @@ input {
   color: #4466f2;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .right-side-header-icon-bell {
   height: 33.6px;
-  width: 5%;
+  width: 4%;
   padding: 0;
   margin: 0;
   border-left: 1px solid #eff0f1;
   color: #4466f2;
   display: flex;
   align-items: center;
+  justify-content: center;
+}
+
+.right-side-header-icon-bell i {
+  position: relative;
+  left: 6px;
 }
 
 .right-side-header-icon-conversation {
   height: 33.6px;
-  width: 5%;
+  width: 4%;
   padding: 0;
   margin: 0;
   border-right: 1px solid #eff0f1;
   color: #4466f2;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .right-side-header-icon-conversation i {
   position: relative;
-  left: 7px;
+  right: 6px;
 }
 
 .right-side-header-icon-photo {
   height: 50px;
-  width: 14.5%;
+  width: 10.7%;
   padding: 0;
   margin: 0;
   border-left: none;
