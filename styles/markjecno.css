@@ -148,7 +148,7 @@
   color: orange;
 }
 
-.container-fluid {
+.container-fluid-user-profile {
   width: 95.4%;
   border-radius: .25rem;
 }
@@ -195,6 +195,8 @@
   width: 100%;
   height: 318.4px;
   display: flex;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 .user-info {
@@ -203,12 +205,14 @@
   width: 100%;
   height: 100%;
   display: flex;
+  flex-direction: column;
   background-color: #fff;
+  border-radius: 0px 0px 5px 5px;
 }
 
 .user-details-info {
   width: 100%;
-  height: 100%;
+  height: 40%;
   display: flex;
   justify-content: center;
 }
@@ -422,11 +426,125 @@
   letter-spacing: .5px;
 }
 
-.johan-dio-mountains {
+.user-details-info-icons-row-parent {
+  width: 100%;
+  height: 60px;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.user-info-traffic-monitoring-parent {
+  height: 131.05px;
+  width: 100%;
   margin: 0;
   padding: 0;
-  flex: 0 0 100%;
-  max-width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.user-info-traffic-monitoring {
+  height: 101.05px;
+  width: 95%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.user-info-traffic-monitoring-follower {
+  height: 74.05px;
+  width: 50%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #dee2e6!important;
+}
+
+.user-info-traffic-monitoring-follower-number {
+  margin: 0;
+  padding: 0;
+  font-size: 36px;
+  color: #1b252a;
+  font-family: work-Sans,sans-serif;
+  justify-content: center;
+  display: flex;
+  position: relative;
+  right: 9px;
+}
+
+.user-info-traffic-monitoring-follower-text {
+  height: 35px;
+  color: #aaa;
+  letter-spacing: .5px;
+  font-size: 14px;
+  font-family: work-Sans,sans-serif;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 9px;
+}
+
+.user-details-info-icons-row {
+  width: 95%;
+  height: 60px;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  font-size: 24px;
+  letter-spacing: 37px;
+}
+
+.user-details-info-icons-row i {
+  cursor: pointer;
+  display: flex;
+  color: #aaa;
+  left: 24px;
+  position: relative;
+}
+
+.user-info-traffic-monitoring-following {
+  height: 74.05px;
+  width: calc(50% - 1px);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.user-info-traffic-monitoring-following-number {
+  margin: 0;
+  padding: 0;
+  font-size: 36px;
+  color: #1b252a;
+  font-family: work-Sans,sans-serif;
+  justify-content: center;
+  display: flex;
+}
+
+.user-info-traffic-monitoring-following-text {
+  height: 35px;
+  color: #aaa;
+  letter-spacing: .5px;
+  font-size: 14px;
+  font-family: work-Sans,sans-serif;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.container-fluid-johan-dio-mountains {
+  width: 95.4%;
+  margin-top: 25px;
 }
 
 .johan-dio-mountains-container {
@@ -436,23 +554,20 @@
   margin: 0;
   padding: 0;
   display: flex;
+  border-radius: 5px;
 }
 
 .johan-dio-mountains-style {
   width: 100%;
   /* height: 100%; */
   margin: 0;
-  padding: 0px 30px;
+  padding: 0;
   display: flex;
 }
 
 .johan-dio-mountains-style-top-row {
-  width: auto;
-  height: auto;
   display: flex;
   flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px
 }
 
 .johan-dio-mountains-style-profile-picture {
