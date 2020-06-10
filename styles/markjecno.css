@@ -563,17 +563,89 @@
   margin: 0;
   padding: 0;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .johan-dio-mountains-style-top-row {
+  width: 95%;
+  height: 140px;
+  padding: 0;
+  margin: 0;
   display: flex;
-  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
 }
 
 .johan-dio-mountains-style-profile-picture {
-  flex: 0 0 66.66667%;
   max-width: 66.66667%;
+  width: 6.5%;
   display: flex;
   margin: 0;
-  padding: 0px 15px;
+}
+
+.johan-dio-mountains-style-profile-picture img {
+  height: 75px;
+  width: 75px;
+  position: relative;
+  border-radius: 100%;
+  border: 1px solid white;
+}
+
+.johan-dio-mountains-style-top-row-user-name {
+  height: 100%;
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-family: work-Sans,sans-serif;
+  font-weight: bolder;
+  color: #313131;
+  line-height: 1.5;
+  letter-spacing: .5px;
+}
+
+.johan-dio-mountains-style-top-row-time-of-post {
+  height: 100%;
+  width: 83.5%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 11.2px;
+  overflow-x: hidden;
+  font-family: work-Sans,sans-serif;
+  color: #313131;
+  letter-spacing: .5px;
+}
+
+.johan-dio-mountains-style-lorem-ipsum-passage {
+  width: 95%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  font-size: 14px;
+  color: #898989;
+  letter-spacing: .7px;
+  font-family: work-Sans,sans-serif;
+  line-height: 30px;
+}
+
+.johan-dio-mountains-style-mountains {
+  /* height: 100%; */
+  width: 95%;
+  margin-top: 30px;
+  padding: 0;
+  display: flex;
+}
+
+.johan-dio-mountains-style-mountains-picture {
+  margin: 0;
+  min-width: 100%;
+  height: 330px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  position: relative;
 }
