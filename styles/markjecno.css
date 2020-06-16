@@ -545,6 +545,7 @@
 .container-fluid-johan-dio-mountains {
   width: 95.4%;
   margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .johan-dio-mountains-container {
@@ -575,6 +576,7 @@
   display: flex;
   align-items: center;
   flex-direction: row;
+  border-bottom: 1px solid #dee2e6;
 }
 
 .johan-dio-mountains-style-profile-picture {
@@ -623,9 +625,11 @@
 
 .johan-dio-mountains-style-lorem-ipsum-passage {
   width: 95%;
+  height: 120px;
   padding: 0;
   margin: 0;
   display: flex;
+  align-items: center;
   font-size: 14px;
   color: #898989;
   letter-spacing: .7px;
@@ -636,7 +640,6 @@
 .johan-dio-mountains-style-mountains {
   /* height: 100%; */
   width: 95%;
-  margin-top: 30px;
   padding: 0;
   display: flex;
 }
@@ -645,7 +648,99 @@
   margin: 0;
   min-width: 100%;
   height: 330px;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
+  border-radius: 5px;
   position: relative;
+}
+
+.johan-dio-mountains-like-and-comment {
+  width: 95%;
+  height: 78px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;;
+}
+
+.johan-dio-mountains-like {
+  width: 109px;
+  margin: 0;
+  padding: 0;
+  letter-spacing: .5px;
+  font-size: 14px;
+  font-family: work-Sans,sans-serif;
+  color: #313131;
+  word-spacing: 5px;
+  display: flex;
+  border-right: 1px solid #dee2e6;
+}
+
+.johan-dio-mountains-like i {
+  color: grey;
+  margin-right: 8px;
+}
+
+.johan-dio-mountains-comment {
+  width: 150px;
+  margin: 0;
+  padding: 0;
+  letter-spacing: .5px;
+  font-size: 14px;
+  font-family: work-Sans,sans-serif;
+  color: #313131;
+  word-spacing: 5px;
+  display: flex;
+}
+
+.johan-dio-mountains-comment i {
+  color: grey;
+  margin-left: 17px;
+  margin-right: 8px;
+}
+
+.container-fluid-johan-dio-double-mountains {
+  width: 95.4%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.johan-dio-double-mountains {
+  width: 100%;
+  /* height: 100%; */
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-radius: 5px;
+}
+
+.johan-dio-double-mountains-picture {
+  width: 95%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.johan-dio-double-mountains-image-left {
+  width: 48.7%;
+  border-radius: 5px;
+  display: flex;
+  position: relative;
+  justify-content: flex-start;
+}
+
+.johan-dio-double-mountains-image-right {
+  width: 48.7%;
+  border-radius: 5px;
+  display: flex;
+  position: relative;
+  justify-content: flex-end;
+}
+
+.johan-dio-lorem-ipsum-passage {
+  
 }
