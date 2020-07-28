@@ -150,6 +150,7 @@
 
 .basic-table-container {
   width: 95.4%;
+  margin-bottom: 50px;
   background-color: #fff;
   margin: 0;
   padding: 0;
@@ -208,12 +209,90 @@ span {
   word-break: break-word;
 }
 
-.basic-table-styling-first-row {
+.basic-table-row-styling-template {
   width: 100%;
   margin: 0;
   padding: 0;
   display: flex;
   flex-wrap: wrap;
+}
+
+.basic-table-styling-position-number-template {
+  width: 4.8%;
+  padding: 12px;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  color: #313131;
+  font-weight: bold;
+  font-size: 14px;
+  border-top: 1px solid #dee2e6;
+  border-bottom: 1.5px solid #e8ebf2;
+}
+
+.basic-table-styling-first-name-template {
+  width: 20.4%;
+  padding: 12px;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  color: #313131;
+  font-size: 14px;
+  font-weight: bold;
+  border-top: 1px solid #dee2e6;
+  border-bottom: 1.5px solid #e8ebf2;
+}
+
+.basic-table-styling-last-name-template {
+  width: 18.55%;
+  padding: 12px;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  color: #313131;
+  font-weight: bold;
+  font-size: 14px;
+  border-top: 1px solid #dee2e6;
+  border-bottom: 1.5px solid #e8ebf2;
+}
+
+.basic-table-styling-username-template {
+  width: 17.9%;
+  padding: 12px;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  color: #313131;
+  font-weight: bold;
+  font-size: 14px;
+  border-top: 1px solid #dee2e6;
+  border-bottom: 1.5px solid #e8ebf2;
+}
+
+.basic-table-styling-role-template {
+  width: 11.7%;
+  padding: 12px;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  color: #313131;
+  font-weight: bold;
+  font-size: 14px;
+  border-top: 1px solid #dee2e6;
+  border-bottom: 1.5px solid #e8ebf2;
+}
+
+.basic-table-styling-country-template {
+  width: 15.7%;
+  padding: 12px 0px 12px 12px;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  color: #313131;
+  font-weight: bold;
+  font-size: 14px;
+  border-top: 1px solid #dee2e6;
+  border-bottom: 1.5px solid #e8ebf2;
 }
 
 .basic-table-styling-position-number {
@@ -225,8 +304,7 @@ span {
   color: #313131;
   font-weight: bold;
   font-size: 14px;
-  border-top: 1px solid #dee2e6;
-  border-bottom: 2px solid #e8ebf2;
+  border-bottom: 1px solid #e8ebf2;
 }
 
 .basic-table-styling-first-name {
@@ -237,9 +315,7 @@ span {
   justify-content: flex-start;
   color: #313131;
   font-size: 14px;
-  font-weight: bold;
-  border-top: 1px solid #dee2e6;
-  border-bottom: 2px solid #e8ebf2;
+  border-bottom: 1px solid #e8ebf2;
 }
 
 .basic-table-styling-last-name {
@@ -249,10 +325,8 @@ span {
   display: flex;
   justify-content: flex-start;
   color: #313131;
-  font-weight: bold;
   font-size: 14px;
-  border-top: 1px solid #dee2e6;
-  border-bottom: 2px solid #e8ebf2;
+  border-bottom: 1px solid #e8ebf2;
 }
 
 .basic-table-styling-username {
@@ -262,10 +336,8 @@ span {
   display: flex;
   justify-content: flex-start;
   color: #313131;
-  font-weight: bold;
   font-size: 14px;
-  border-top: 1px solid #dee2e6;
-  border-bottom: 2px solid #e8ebf2;
+  border-bottom: 1px solid #e8ebf2;
 }
 
 .basic-table-styling-role {
@@ -275,10 +347,8 @@ span {
   display: flex;
   justify-content: flex-start;
   color: #313131;
-  font-weight: bold;
   font-size: 14px;
-  border-top: 1px solid #dee2e6;
-  border-bottom: 2px solid #e8ebf2;
+  border-bottom: 1px solid #e8ebf2;
 }
 
 .basic-table-styling-country {
@@ -288,8 +358,88 @@ span {
   display: flex;
   justify-content: flex-start;
   color: #313131;
+  font-size: 14px;
+  border-bottom: 1px solid #e8ebf2;
+}
+
+.basic-table-styling-position-number-last-row {
+  width: 4.8%;
+  padding: 12px;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  color: #313131;
   font-weight: bold;
   font-size: 14px;
-  border-top: 1px solid #dee2e6;
-  border-bottom: 2px solid #e8ebf2;
+}
+
+.basic-table-styling-first-name-last-row {
+  width: 20.4%;
+  padding: 12px;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  color: #313131;
+  font-size: 14px;
+}
+
+.basic-table-styling-last-name-last-row {
+  width: 18.55%;
+  padding: 12px;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  color: #313131;
+  font-size: 14px;
+}
+
+.basic-table-styling-username-last-row {
+  width: 17.9%;
+  padding: 12px;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  color: #313131;
+  font-size: 14px;
+}
+
+.basic-table-styling-role-last-row {
+  width: 11.7%;
+  padding: 12px;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  color: #313131;
+  font-size: 14px;
+}
+
+.basic-table-styling-country-last-row {
+  width: 15.7%;
+  padding: 12px 0px 12px 12px;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  color: #313131;
+  font-size: 14px;
+}
+
+.inverse-table-container {
+  width: 95.4%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  border-radius: 5px;
+}
+
+.inverse-table-styling {
+  margin-top: 30px;
+  background-color: #fff;
+  border: 0;
+  width: 100%;
+  transition: all .3s ease;
+  letter-spacing: .5px;
+  border-radius: 8px;
+  box-shadow: 1px 5px 24px 0 rgba(68,102,242,.05);
+  display: flex;
+  flex-direction: column;
 }
