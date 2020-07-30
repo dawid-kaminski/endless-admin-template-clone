@@ -443,3 +443,227 @@ span {
   display: flex;
   flex-direction: column;
 }
+
+.inverse-table-styling-position-number-template {
+  width: 4.8%;
+  padding: 12px;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  background-color: #292b2c;
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+  border-top: 1px solid #dee2e6;
+  border-bottom: 1.5px solid #e8ebf2;
+}
+
+.inverse-table-styling-first-name-template {
+  width: 20.4%;
+  padding: 12px;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  background-color: #292b2c;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  border-top: 1px solid #dee2e6;
+  border-bottom: 1.5px solid #e8ebf2;
+}
+
+.inverse-table-styling-last-name-template {
+  width: 18.55%;
+  padding: 12px;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  background-color: #292b2c;
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+  border-top: 1px solid #dee2e6;
+  border-bottom: 1.5px solid #e8ebf2;
+}
+
+.inverse-table-styling-username-template {
+  width: 17.9%;
+  padding: 12px;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  background-color: #292b2c;
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+  border-top: 1px solid #dee2e6;
+  border-bottom: 1.5px solid #e8ebf2;
+}
+
+.inverse-table-styling-role-template {
+  width: 11.7%;
+  padding: 12px;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  background-color: #292b2c;
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+  border-top: 1px solid #dee2e6;
+  border-bottom: 1.5px solid #e8ebf2;
+}
+
+.inverse-table-styling-country-template {
+  width: 15.7%;
+  padding: 12px 0px 12px 12px;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  background-color: #292b2c;
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+  border-top: 1px solid #dee2e6;
+  border-bottom: 1.5px solid #e8ebf2;
+}
+
+.inverse-table-styling-position-number {
+  width: 4.8%;
+  padding: 12px;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  background-color: #292b2c;
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+  border-bottom: 1px solid #e8ebf2;
+}
+
+.inverse-table-styling-first-name {
+  width: 20.4%;
+  padding: 12px;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  background-color: #292b2c;
+  color: #fff;
+  font-size: 14px;
+  border-bottom: 1px solid #e8ebf2;
+}
+
+.inverse-table-styling-last-name {
+  width: 18.55%;
+  padding: 12px;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  background-color: #292b2c;
+  color: #fff;
+  font-size: 14px;
+  border-bottom: 1px solid #e8ebf2;
+}
+
+.inverse-table-styling-username {
+  width: 17.9%;
+  padding: 12px;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  background-color: #292b2c;
+  color: #fff;
+  font-size: 14px;
+  border-bottom: 1px solid #e8ebf2;
+}
+
+.inverse-table-styling-role {
+  width: 11.7%;
+  padding: 12px;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  background-color: #292b2c;
+  color: #fff;
+  font-size: 14px;
+  border-bottom: 1px solid #e8ebf2;
+}
+
+.inverse-table-styling-country {
+  width: 15.7%;
+  padding: 12px 0px 12px 12px;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  background-color: #292b2c;
+  color: #fff;
+  font-size: 14px;
+  border-bottom: 1px solid #e8ebf2;
+}
+
+.inverse-table-styling-position-number-last-row {
+  width: 4.8%;
+  padding: 12px;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  background-color: #292b2c;
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.inverse-table-styling-first-name-last-row {
+  width: 20.4%;
+  padding: 12px;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  background-color: #292b2c;
+  color: #fff;
+  font-size: 14px;
+}
+
+.inverse-table-styling-last-name-last-row {
+  width: 18.55%;
+  padding: 12px;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  background-color: #292b2c;
+  color: #fff;
+  font-size: 14px;
+}
+
+.inverse-table-styling-username-last-row {
+  width: 17.9%;
+  padding: 12px;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  background-color: #292b2c;
+  color: #fff;
+  font-size: 14px;
+}
+
+.inverse-table-styling-role-last-row {
+  width: 11.7%;
+  padding: 12px;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  background-color: #292b2c;
+  color: #fff;
+  font-size: 14px;
+}
+
+.inverse-table-styling-country-last-row {
+  width: 15.7%;
+  padding: 12px 0px 12px 12px;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  background-color: #292b2c;
+  color: #fff;
+  font-size: 14px;
+}
