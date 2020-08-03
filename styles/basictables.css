@@ -915,3 +915,14 @@ span {
   color: #fff;
   font-size: 14px;
 }
+
+span#table-primary-background {
+  color: #4466f2!important;
+  background-color: #f6f7fb;
+  font-size: 10.5px;
+  /* box-sizing: border-box; */
+  padding: 3px;
+  margin: 0 3px;
+  border-radius: 2px;
+  /* word-break: break-word; */
+}
