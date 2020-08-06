@@ -1151,3 +1151,13 @@ span#contextual {
   border-spacing: 2px;
   letter-spacing: .5px;
 }
+
+.contextual-classes-heading-row-template {
+  border-bottom: 2px solid #e8ebf2;
+  color: #313131;
+  font-size: 14px;
+  font-family: work-Sans,sans-serif;
+  font-weight: bold;
+  border-spacing: 2px;
+  letter-spacing: .5px;
+}
