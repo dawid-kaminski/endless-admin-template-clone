@@ -1142,7 +1142,16 @@ span#contextual {
   letter-spacing: 1px;
 }
 
+.contextual-classes-row-styling {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+}
+
 .contextual-classes-class-row-template {
+  padding: .75rem;
   border-bottom: 2px solid #e8ebf2;
   color: #313131;
   font-size: 14px;
@@ -1153,6 +1162,7 @@ span#contextual {
 }
 
 .contextual-classes-heading-row-template {
+  padding: .75rem;
   border-bottom: 2px solid #e8ebf2;
   color: #313131;
   font-size: 14px;
