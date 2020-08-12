@@ -2083,3 +2083,108 @@ span#captions {
   text-align: left;
   caption-side: bottom;
 }
+
+.responsive-tables-container {
+  width: 95.4%;
+  margin: 0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  border-radius: 5px;
+}
+
+.responsive-tables-container-styling {
+  margin-bottom: 30px;
+  background-color: #fff;
+  border: 0;
+  width: 100%;
+  transition: all .3s ease;
+  letter-spacing: .5px;
+  border-radius: 8px;
+  box-shadow: 1px 5px 24px 0 rgba(68,102,242,.05);
+  display: flex;
+  flex-direction: column;
+}
+
+.responsive-tables-rows-styling-headline {
+  width: 100%;
+  height: 114px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  border-bottom: 1px solid #e8ebf2;
+}
+
+.responsive-tables-row-styling-template {
+  width: 100%;
+  height: 64px;
+  margin: 0;
+  padding-bottom: 0;
+  display: flex;
+  flex-direction: row;
+  line-height: 1.5;
+  border-top: 0.5px solid #dee2e6;
+  border-bottom: 1.5px solid #dee2e6;
+}
+
+.responsive-tables-row-position-template {
+  width: 1%;
+  padding: 0px 0px 8px 11px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.responsive-tables-row-heading-template {
+  width: 7%;
+  padding-bottom: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.responsive-tables-row-styling {
+  width: 100%;
+  height: 64px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  line-height: 1.5;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.responsive-tables-row-position {
+  width: 1%;
+  padding: 0px 0px 8px 11px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.responsive-tables-row-heading {
+  width: 7%;
+  padding-bottom: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.responsive-tables-last-row-styling {
+  width: 100%;
+  height: 64px;
+  margin: 0;
+  padding-bottom: 0;
+  line-height: 1.5;
+  display: flex;
+  flex-direction: row;
+}
