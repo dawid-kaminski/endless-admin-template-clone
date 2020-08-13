@@ -2142,9 +2142,9 @@ span#captions {
 
 .responsive-tables-row-heading-template {
   width: 7%;
-  padding-bottom: 8px;
+  padding-bottom: 11px;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
   font-weight: bold;
   font-size: 14px;
@@ -2172,9 +2172,9 @@ span#captions {
 
 .responsive-tables-row-heading {
   width: 7%;
-  padding-bottom: 8px;
+  padding-bottom: 11px;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
   font-size: 14px;
 }
