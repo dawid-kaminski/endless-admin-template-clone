@@ -2108,7 +2108,7 @@ span#captions {
 
 .responsive-tables-rows-styling-headline {
   width: 100%;
-  height: 114px;
+  height: 107px;
   margin: 0;
   padding: 0;
   display: flex;
@@ -2141,8 +2141,8 @@ span#captions {
 }
 
 .responsive-tables-row-heading-template {
-  width: 7%;
-  padding-bottom: 11px;
+  width: 5%;
+  padding: 0px 0px 11px 23px;
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -2163,9 +2163,10 @@ span#captions {
 
 .responsive-tables-row-position {
   width: 1%;
-  padding: 0px 0px 8px 11px;
+  padding: 10px 0px 8px 11px;
   display: flex;
-  align-items: flex-end;
+  font-weight: bold;
+  align-items: center;
   justify-content: center;
   font-size: 14px;
 }
@@ -2187,4 +2188,148 @@ span#captions {
   line-height: 1.5;
   display: flex;
   flex-direction: row;
+}
+
+.breckpoint-specific-container {
+  width: 95.4%;
+  margin: 0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  border-radius: 5px;
+}
+
+.breckpoint-specific-container-styling {
+  margin-bottom: 30px;
+  background-color: #fff;
+  border: 0;
+  width: 100%;
+  transition: all .3s ease;
+  letter-spacing: .5px;
+  border-radius: 8px;
+  box-shadow: 1px 5px 24px 0 rgba(68,102,242,.05);
+  display: flex;
+  flex-direction: column;
+}
+
+.breckpoint-specific-rows-styling-headline {
+  width: 100%;
+  height: 89px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  border-bottom: 1px solid #e8ebf2;
+}
+
+.breckpoint-specific-row-styling-template {
+  width: 100%;
+  height: 45px;
+  margin: 0;
+  padding-bottom: 0;
+  display: flex;
+  flex-direction: row;
+  line-height: 1.5;
+  border-top: 1px solid #dee2e6;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.breckpoint-specific-row-position-template {
+  width: 1%;
+  padding-left: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.breckpoint-specific-row-heading-template {
+  width: 14.8%;
+  padding-left: 51px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.breckpoint-specific-row-styling {
+  width: 100%;
+  height: 45px;
+  margin: 0;
+  padding-bottom: 0;
+  display: flex;
+  flex-direction: row;
+  line-height: 1.5;
+  border-bottom: 0.5px solid #dee2e6;
+}
+
+.breckpoint-specific-row-heading {
+  width: 14.8%;
+  padding-left: 51px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 14px;
+}
+
+.breckpoint-specific-last-row-styling {
+  width: 100%;
+  height: 45px;
+  margin: 0;
+  padding-bottom: 0;
+  display: flex;
+  flex-direction: row;
+  line-height: 1.5;
+}
+
+.footer {
+  width: 100%;
+  padding: 15px 0px 15px 0px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  border-top: 1px solid #f6f7fb;
+}
+
+.footer-styling {
+  width: 95.4%;
+  transition: all .3s ease;
+  letter-spacing: .5px;
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-styling-copyright {
+  width: 50%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  font-size: 13px;
+  font-family: work-Sans,sans-serif;
+  color: #a4adb6;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.footer-styling-handcraft {
+  width: 50%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 13px;
+  font-family: work-Sans,sans-serif;
+  color: #a4adb6;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.footer-styling-handcraft-heart {
+  margin-left: 5px;
+  color: #d75a4a;
 }
