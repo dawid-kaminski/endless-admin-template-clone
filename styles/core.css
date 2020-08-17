@@ -120,7 +120,7 @@ html, body {
   display: flex;
 }
 
-.sidebar-menu-option {
+.sidebar-menu-option-link {
   width: 209.4px;
   height: 20.8px;
   font-size: 14px;
@@ -130,6 +130,30 @@ html, body {
   text-transform: capitalize;
   font-weight: 400;
   color: hsla(0,0%,100%,.85);
+  font-family: "Nunito", sans-serif;
+  cursor: pointer;
+  display: flex;
+  align-content: flex-end;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 400;
+  color: hsla(0,0%,100%,.85);
+  font-family: "Nunito", sans-serif;
+  cursor: pointer;
+}
+
+.sidebar-menu-option {
+  width: 209.4px;
+  height: 20.8px;
+  font-size: 14px;
+  letter-spacing: .5px;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  text-transform: capitalize;
+  font-weight: 400;
+  color: black;
   font-family: "Nunito", sans-serif;
   cursor: pointer;
   display: flex;

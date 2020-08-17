@@ -69,7 +69,7 @@
   width: calc(100vw - 520.2px);
   height: 100%;
   margin: 0;
-  padding-right: 15px;
+  padding-right: 21px;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -106,39 +106,44 @@
   padding: 0px 5px;
   display: flex;
   align-items: center;
+  color: orange;
 }
 
-.card-body {
-  height: calc(100vh - 166.4px);
-  height: 100%;
+.image-gallery-container {
+  height: 682px;
   width: 100%;
   margin: 0;
-  /* padding: 0px 15px 0px 15px; */
   border-bottom: 1px solid #f6f7fb;
+  display: flex;
+  justify-content: center;
 }
 
-.card {
+.image-gallery-container-styling {
   height: 100%;
-  width: 100%;
+  width: 98%;
   margin: 0px;
-  /* padding: 0px 15px; */
+  border-radius: 5px;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
   background-color: #fff;
 }
 
-.card-header {
-  height: auto;
+.image-gallery-header {
+  height: 85px;
   width: 100%;
   margin: 0;
-  padding: 30px 0px 30px 15px;
-  font-size: 18px;
-  font-weight: 600;
-  letter-spacing: .5px;
+  padding: 0;
   border-bottom: 1px solid #f6f7fb;
 }
 
-.card-my-gallery {
+.image-gallery-header-styling {
+  padding: 30px;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: .5px;
+}
+
+.image-gallery-my-gallery {
   height: auto;
   width: 100%;
   margin: 0;
@@ -146,14 +151,15 @@
   border: 0;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
-.card-my-gallery-photo {
+.image-gallery-my-gallery-photo {
   padding: 0px 15px;
   margin-bottom: 16px;
 }
 
-.card-my-gallery-photo-frame {
+.image-gallery-my-gallery-photo-frame {
   padding: .25rem;
   background-color: #fff;
   border: 1px solid #dee2e6;
@@ -162,35 +168,7 @@
   height: auto;
 }
 
-.card-my-gallery-photo-frame img {
+.image-gallery-my-gallery-photo-frame img {
   height: 158.21px;
   width: 254.95px;
 }
-
-/* .card-body {
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  background-color: #fff;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
-}
-
-.card {
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-.card-header {
-  height: 100%;
-  width: 100%;
-  margin: 30px;
-  padding: 0;
-  font-size: 18px;
-  font-weight: 600;
-  letter-spacing: .5px;
-  border-bottom: 1px solid #f6f7fb;
-} */
