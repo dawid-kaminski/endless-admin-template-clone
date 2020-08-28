@@ -47,5 +47,6 @@ This project is licensed under the MIT License
 ---
 
 ### Acknowledgments 📓
+
+Endless Project is my first repository in which I have recreated an existing website for training purposes. I wanted put my front-end skills into practice and design a website.
 &nbsp;
-Endless Project is my first repository in which I have recreated an existing website for training purposes. I wanted put my aquired front-end skills into practice and design a website.
