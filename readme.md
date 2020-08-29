@@ -34,19 +34,19 @@ In order to see the project simply clone the repository and run the index.html f
 &nbsp;
 ---
 
-### Contact 
+### Contact
 &nbsp;
-You can contact me via my personal Email: dawidk65@gmail.com
+##### You can contact me via my personal Email: dawidk65@gmail.com
 &nbsp;
 ---
 
 ### License
 &nbsp;
-This project is licensed under the MIT License
+##### This project is licensed under the MIT License
 &nbsp;
 ---
 
 ### Acknowledgments
 &nbsp;
-Endless Project is my first repository in which I have recreated an existing website for training purposes. I wanted to put my acquired front-end skills into practice and design a website.
+##### Endless Project is my first repository in which I have recreated an existing website for training purposes. I wanted to put my acquired front-end skills into practice and design a website.
 &nbsp;
