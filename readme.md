@@ -21,10 +21,10 @@
 ---
 <a name="tools"></a>
 ### Tools and external libraries used for the project
-#### 1. HTML 5
-#### 2. CSS 3
-#### 3. [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-#### 4. [Font Awesome](https://fontawesome.com/)
+ 1. HTML 5
+ 2. CSS 3
+ 3. [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+ 4. [Font Awesome](https://fontawesome.com/)
 &nbsp;
 ---
 <a name="installation"></a>
