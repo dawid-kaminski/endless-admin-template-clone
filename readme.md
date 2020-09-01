@@ -7,7 +7,7 @@
 3. [How to view the project 📀](#installation)
 4. [Contact](#Contact)
 5. [License](#License)
-6. [Acknowledgments](#Acknowledgments)
+6. [Acknowledgments ❓](#Acknowledgments)
 &nbsp;
 ---
 
