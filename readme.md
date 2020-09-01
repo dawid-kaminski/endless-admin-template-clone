@@ -4,10 +4,11 @@
 # Table of contents
 1. [What is this repository about](#introduction)
 2. [Tools and external libraries used for the project](#tools)
-3. [How to view the project](#installation)
-4. [Contact](#Contact)
-5. [License](#License)
-6. [Acknowledgments](#Acknowledgments)
+3. [Images of the project](#images)
+4. [How to view the project](#installation)
+5. [Contact](#Contact)
+6. [License](#License)
+7. [Acknowledgments](#Acknowledgments)
 &nbsp;
 ---
 <a name="introduction"></a>
@@ -27,6 +28,12 @@
  4. [Font Awesome](https://fontawesome.com/)
 &nbsp;
 ---
+### Images of the Project
+![](images/1.png)
+![](images/2.png)
+![](images/3.png)
+&nbsp;
+
 <a name="installation"></a>
 ### How to view the project
 
