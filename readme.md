@@ -2,12 +2,12 @@
 &nbsp;
 
 # Table of contents
-1. [What is this repository about ❓](#introduction)
-2. [Tools and external libraries used for the project 🔧](#tools)
-3. [How to view the project 📀](#installation)
+1. [What is this repository about](#introduction)
+2. [Tools and external libraries used for the project](#tools)
+3. [How to view the project](#installation)
 4. [Contact](#Contact)
 5. [License](#License)
-6. [Acknowledgments ❓](#Acknowledgments)
+6. [Acknowledgments](#Acknowledgments)
 &nbsp;
 ---
 
@@ -46,7 +46,7 @@ Endless Project is a project in which I have recreated an existing website with 
 &nbsp;
 ---
 
-### Acknowledgments ❓
+### Acknowledgments
 
 #### Endless Project is my first repository in which I have recreated an existing website for training purposes. I wanted to put my acquired front-end skills into practice and design a website.
 &nbsp;
