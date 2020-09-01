@@ -46,7 +46,7 @@ Endless Project is a project in which I have recreated an existing website with 
 &nbsp;
 ---
 
-### Acknowledgments
+### Acknowledgments ❓
 
 #### Endless Project is my first repository in which I have recreated an existing website for training purposes. I wanted to put my acquired front-end skills into practice and design a website.
 &nbsp;
