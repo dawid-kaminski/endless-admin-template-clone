@@ -13,7 +13,7 @@
 <a name="introduction"></a>
 ### What is this repository about
 
-Endless Project is a project in which I have recreated an existing website with as accurately similar styling as possible. The main idea of the project was to copy the looks of the website without looking into the source code. After that I wanted to compare my own version with the original created by the authors for educational purposes. The links to the original websites:
+#### Endless Project is a project in which I have recreated an existing website with as accurately similar styling as possible. The main idea of the project was to copy the looks of the website without looking into the source code. After that I wanted to compare my own version with the original created by the authors for educational purposes. The links to the original websites:
 1. [Gallery Grid](http://react.pixelstrap.com/endless/gallery/imageGallery#javascript)
 2. [User Profile](http://react.pixelstrap.com/endless/users/userProfile#javascript)
 3. [Basic Tables](http://react.pixelstrap.com/endless/table/basic#javascript)
@@ -21,10 +21,10 @@ Endless Project is a project in which I have recreated an existing website with 
 ---
 <a name="tools"></a>
 ### Tools and external libraries used for the project
-1. HTML 5
-2. CSS 3
-3. [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-4. [Font Awesome](https://fontawesome.com/)
+#### 1. HTML 5
+#### 2. CSS 3
+#### 3. [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+#### 4. [Font Awesome](https://fontawesome.com/)
 &nbsp;
 ---
 <a name="installation"></a>
