@@ -29,9 +29,9 @@
 &nbsp;
 ---
 ### Images of the Project
-![](images/1.png)
-![](images/2.png)
-![](images/3.png)
+![](images/1.PNG)
+![](images/2.PNG)
+![](images/3.PNG)
 &nbsp;
 
 <a name="installation"></a>
